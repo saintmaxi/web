@@ -246,7 +246,7 @@ it('shouldn"t allow to withdraw a non owner', async () => {
   await time.setNextBlockTimestamp(newLastBlockTimeStamp + UNLOCK_TIME);
 
   // Then we try to withdraw using other user signer. Notice the .connect function that is useful
-  //  to create and instance but have the msg.sender as the new signer.
+  //  to create an instance but have the msg.sender as the new signer.
   const newInstanceUsingAnotherSigner = lockInstance.connect(otherUserSigner);
 
   // We attempt to withdraw, but since the sender is not the owner, it will revert.
