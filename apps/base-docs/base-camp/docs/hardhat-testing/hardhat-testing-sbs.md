@@ -257,7 +257,7 @@ it('shouldn"t allow to withdraw a non owner', async () => {
 Finally, test that the owner can withdraw. You can manipulate the time similarly to the previous test case but you won't change the signer and will assert the new balances:
 
 ```typescript
-it('should allow to withdraw a owner', async () => {
+it('should allow to withdraw an owner', async () => {
   const balanceBefore = await ethers.provider.getBalance(await lockInstance.getAddress());
 
   // Its value will be the one we lock at deployment time.
