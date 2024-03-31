@@ -130,7 +130,7 @@ It seems the logs are not being shown. The reason is because the `forge test` co
 
 You can control that by including different levels of the verbose flag -- `-vv` up to `-vvvvv`. For more details about the level of verbosity you can refer to the [Logs and Traces] section of the Foundry documentation.
 
-Run the `foundry test -vv`. You should see:
+Run the `forge test -vv`. You should see:
 
 ```bash
 Running 2 tests for test/Counter.t.sol:CounterTest
