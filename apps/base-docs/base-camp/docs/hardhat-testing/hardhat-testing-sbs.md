@@ -199,7 +199,7 @@ Similar to the previous test cases, you can verify that the owner is correct:
 
 ```typescript
 it('should have the right owner', async () => {
-  // Notice ownerSigned has an address property
+  // Notice ownerSigner has an address property
   expect(await lockInstance.owner()).to.equal(ownerSigner.address);
 });
 ```
