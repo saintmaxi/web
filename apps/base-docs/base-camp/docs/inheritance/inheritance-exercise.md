@@ -12,7 +12,7 @@ Create contracts that adhere to the following specifications.
 
 ### Employee
 
-Create an `abstract` contract called `employee`. It should have:
+Create an `abstract` contract called `Employee`. It should have:
 
 - A public variable storing `idNumber`
 - A public variable storing `managerId`
