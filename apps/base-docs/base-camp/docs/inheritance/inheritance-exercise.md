@@ -70,7 +70,7 @@ Deploy your `Salesperson` and `EngineeringManager` contracts. Use the following 
 - Id number is 55555
 - Manager Id number is 12345
 
-### Manager
+### EngineeringManager
 
 - Annual salary is 200,000
 - Id number is 54321
