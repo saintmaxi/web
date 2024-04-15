@@ -130,10 +130,10 @@ function addFavorite(
     uint[5] calldata _lotteryNumbers
 ) public {
     Favorites memory myFavorites = Favorites(
-        29,
-        14,
-        "red",
-        [uint(1), 2, 3, 4, 5]
+        _favoriteNumber,
+        _birthDay,
+        _favoriteColor,
+        _lotteryNumbers
     );
 
     userFavorites.push(myFavorites);

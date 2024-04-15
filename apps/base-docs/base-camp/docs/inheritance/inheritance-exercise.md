@@ -12,7 +12,7 @@ Create contracts that adhere to the following specifications.
 
 ### Employee
 
-Create an `abstract` contract called `employee`. It should have:
+Create an `abstract` contract called `Employee`. It should have:
 
 - A public variable storing `idNumber`
 - A public variable storing `managerId`
@@ -70,7 +70,7 @@ Deploy your `Salesperson` and `EngineeringManager` contracts. Use the following 
 - Id number is 55555
 - Manager Id number is 12345
 
-### Manager
+### EngineeringManager
 
 - Annual salary is 200,000
 - Id number is 54321
